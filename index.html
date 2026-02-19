@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number guessing game</title>
+    <link
+      rel="stylesheet"
+      href="style.css
+    "
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--Section3: Game Demo-->
+      <h2 id="game-demo">Live Game Demo</h2>
+      <div class="game-container">
+        <h3>🎯 Try the Game!</h3>
+        <div id="gameArea">
+          <h2 style="color: #667eea; margin-top: 0">Guess the Numer (1-100)</h2>
+          <div id="stats">
+            <div class="stat-box">
+              <div class="stat-label">Attempt</div>
+              <div class="stat-value" id="attempts">0</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Best Score</div>
+              <div class="stat-value" id="bestScore">-</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-label">Games Played</div>
+              <div class="stat-value" id="gamesPlayed">0</div>
+            </div>
+          </div>
+          <div id="message" class="info">Make your first guess!</div>
+          <div>
+            <input
+              type="number"
+              min="1"
+              max="100"
+              id="guessInput"
+              placeholder="Enter 1-100"
+            />
+          </div>
+          <div>
+            <button id="submitGuess">Submit Guess</button>
+            <button id="resetGame">New Game</button>
+            <button id="clearStats">Clear Stats</button>
+          </div>
+          <div id="guessHIstory">
+            <strong>Your Guesses:</strong><span id="historyList">None yet</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
