@@ -26,24 +26,27 @@ The game also tracks:
 
 ---
 
-## 🚀 Live Features
+## 📸 Demo
+<img width="1898" height="986" alt="image" src="https://github.com/user-attachments/assets/50c54c76-da7d-4f1f-87c8-c2c125e6adc0" />
 
-- Random number generation
-- Input validation
-- Attempt counter
-- Guess history display
-- Best score tracking
-- Games played tracking
-- Session storage persistence
-- Dynamic DOM updates using jQuery
 
+## 🚀 Features
+
+- 🎲 Random number generation  
+- 📊 Tracks attempts and guess history  
+- 🏆 Best score tracking  
+- 🎮 Games played counter  
+- 💾 Session storage persistence  
+- ✅ Input validation to prevent duplicates and out-of-range numbers  
+- ✨ Dynamic feedback: Too High, Too Low, Correct Guess  
+- 🔄 Reset game and clear stats functionality  
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
-- **jQuery (3.7.1)**
-- **Session Storage**
+- **HTML5** – Structure and layout  
+- **CSS3** – Styling and responsiveness  
+- **JavaScript (ES6)** – Game logic  
+- **jQuery (v3.7.1)** – DOM manipulation and event handling  
+- **Session Storage** – Persistent game statistics  
 
